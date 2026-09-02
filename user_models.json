@@ -1,0 +1,31 @@
+{
+  "test-cluster-sess": {
+    "user_id": "test-cluster-sess",
+    "preferences": {
+      "language": "en",
+      "topics": [
+        "math",
+        "formatting"
+      ],
+      "tool_preferences": {},
+      "preferred_tools": []
+    },
+    "interaction_count": 2,
+    "avg_confidence": 1.0,
+    "last_seen": "2026-09-02T16:53:17.888157"
+  },
+  "test-orchestrator-sess": {
+    "user_id": "test-orchestrator-sess",
+    "preferences": {
+      "language": "en",
+      "topics": [
+        "general"
+      ],
+      "tool_preferences": {},
+      "preferred_tools": []
+    },
+    "interaction_count": 1,
+    "avg_confidence": 1.0,
+    "last_seen": "2026-09-02T16:36:06.741385"
+  }
+}

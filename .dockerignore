@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.git
+chroma_db/
+experiences.json
+proposals.json
+user_models.json
+README.md
+.gitignore
+node_modules/
+.next/

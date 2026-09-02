@@ -1,0 +1,35 @@
+[
+  {
+    "session_id": "test-orchestrator-sess",
+    "user_query": "Hello Memora!",
+    "agent_response": "Hello! I am Memora, your intelligent AI agent. How can I help you today?",
+    "tool_used": null,
+    "tool_input": null,
+    "tool_result": null,
+    "success": true,
+    "timestamp": "2026-09-02T16:36:06.741385",
+    "feedback_score": null
+  },
+  {
+    "session_id": "test-cluster-sess",
+    "user_query": "Please convert 50 celsius to fahrenheit",
+    "agent_response": "50 C is 122 F",
+    "tool_used": null,
+    "tool_input": null,
+    "tool_result": null,
+    "success": true,
+    "timestamp": "2026-09-02T16:53:17.887726",
+    "feedback_score": null
+  },
+  {
+    "session_id": "test-cluster-sess",
+    "user_query": "Format this text to uppercase: deep learning agent",
+    "agent_response": "DEEP LEARNING AGENT",
+    "tool_used": null,
+    "tool_input": null,
+    "tool_result": null,
+    "success": true,
+    "timestamp": "2026-09-02T16:53:17.888157",
+    "feedback_score": null
+  }
+]

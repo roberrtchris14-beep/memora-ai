@@ -1,0 +1,91 @@
+[
+  {
+    "skill_name": "text_formatter",
+    "description": "Formats, transforms, and normalizes text (uppercase, lowercase, title case, slugify).",
+    "use_case": "Automates string transformations and formatting for user queries.",
+    "example_queries": [
+      "Format this text to uppercase: deep learning agent"
+    ],
+    "confidence_score": 0.9,
+    "tool_input_schema": {
+      "type": "object",
+      "properties": {
+        "text": {
+          "type": "string",
+          "description": "Text to format"
+        },
+        "mode": {
+          "type": "string",
+          "enum": [
+            "upper",
+            "lower",
+            "title",
+            "slug"
+          ],
+          "description": "Format mode"
+        }
+      },
+      "required": [
+        "text"
+      ]
+    },
+    "status": "integrated",
+    "created_at": "2026-09-02T16:55:18.779842"
+  },
+  {
+    "skill_name": "unit_converter",
+    "description": "Converts metric and imperial measurements, temperatures, and currencies.",
+    "use_case": "Provides deterministic physical and financial conversion calculations.",
+    "example_queries": [
+      "Please convert 50 celsius to fahrenheit"
+    ],
+    "confidence_score": 0.92,
+    "tool_input_schema": {
+      "type": "object",
+      "properties": {
+        "value": {
+          "type": "number",
+          "description": "Numerical amount"
+        },
+        "from_unit": {
+          "type": "string",
+          "description": "Starting unit"
+        },
+        "to_unit": {
+          "type": "string",
+          "description": "Desired unit"
+        }
+      },
+      "required": [
+        "value",
+        "from_unit",
+        "to_unit"
+      ]
+    },
+    "status": "integrated",
+    "created_at": "2026-09-02T16:55:18.822400"
+  },
+  {
+    "skill_name": "json_parser",
+    "description": "Parses, validates, formats, and extracts fields from JSON data strings.",
+    "use_case": "Simplifies JSON data manipulation and debugging.",
+    "example_queries": [
+      "Can you parse and validate this json string"
+    ],
+    "confidence_score": 0.9,
+    "tool_input_schema": {
+      "type": "object",
+      "properties": {
+        "json_string": {
+          "type": "string",
+          "description": "Raw JSON string"
+        }
+      },
+      "required": [
+        "json_string"
+      ]
+    },
+    "status": "integrated",
+    "created_at": "2026-09-02T17:15:00.000000"
+  }
+]
