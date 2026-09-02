@@ -1,0 +1,6 @@
+{
+  "name": "Memora",
+  "description": "Agent Memory & Skills Platform - Foundation & Data Layer with FastAPI, ChromaDB, and Gemini embeddings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
